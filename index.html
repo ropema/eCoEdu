@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Educación y Áreas Verdes</title>
-    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
     <link href="estilo.css" rel="stylesheet">
     <script src="jquery.js" type="text/javascript"></script>
 </head>
@@ -22,7 +22,7 @@
     <nav>
         <ul class="menu">
             <li><a href="#resumen">Presentación de la Aplicación</a></li>
-            <li><a href="#ejemplos">Ejemplos de uso</a></li>
+            <li><a href="#entrada">Inicio y Autenticación</a></li>
             <li><a href="#contacto">Formulario de contacto</a></li>
         </ul>
     </nav>
@@ -30,7 +30,7 @@
     <aside>
         <h1>Menú</h1>
         <ul>
-            <li>Inicio y Autenticación</li>
+            <li><a href="#entrada">Inicio y Autenticación</a></li>
             <li>Área Apoderados</li>
             <li>Área docente</li>
             <li>Área convenios</li>
@@ -75,15 +75,26 @@
         <p>Prototipo funcional a partir del wireframe para ser presentado a los primeros clientes para conocer su experiencia.</p>
 		<p>Testeo del prototipo y por realimentación validar hasta lograr un primer producto completo.</p>
     </section>
-            <article class="dibujos">
+		<article class="login">
             <header>
-                <a name="ejemplos"><h1>Pizarra dinamica de programación de clases</h1></a>
+                <a name="entrada"><h1>Registro y Autenticación</h1></a>
             </header>
             <section>
-                <canvas id="hoja" width="480" height="320">Este navegador no puede mostrar un lienzo de dibujo</canvas>
-                <script type="text/javascript">
- 
-                </script>
+				<form action="#">
+					<table border='2'>
+                    <tr>
+                        <td align="left">Email :</td>
+                        <td><input type="email" name="email" value="" required/></td>
+                    </tr>
+                    <tr>
+                        <td align="left">Contraseña :</td>
+                        <td><input type="hidden" name="password" value="" required/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Iniciar Sesión"></td>
+                    </tr>		    
+					</table>
+				</form>
             </section>
         </article>
         <article class="datos">
@@ -119,3 +130,4 @@
     </footer>
 </body>
 </html>
+
