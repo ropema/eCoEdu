@@ -31,9 +31,9 @@
         <h1>Menú</h1>
         <ul>
             <li><a href="#entrada">Inicio y Autenticación</a></li>
-            <li>Área Apoderados</li>
-            <li>Área docente</li>
-            <li>Área convenios</li>
+            <li><a href="apoderados.html">Área Apoderados</li>
+            <li><a href="docente.html">Área docente</li>
+            <li><a href="convenios.html">Área convenios</li>
             <ul>
 		<li><a href="https://www.mineduc.cl/">Ministerio de Educación</a>
 		<li><a href="https://www.unicef.org/es">UNICEF</a>
@@ -101,33 +101,31 @@
             <header>
                 <a name="contacto"><h1>Datos para contacto</h1></a>
             </header>
-	    <section>
-		<form action="correo.php" method="post">
-                <table border='2'>
-                    <tr>
-                        <td align="left">Nombre :</td>
-                        <td><input type="text" name="nombre" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td align="left">Email :</td>
-                        <td><input type="email" name="email" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td align="left">Mensaje :</td>
-                        <td><input type="text" name="mensaje" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Enviar"></td>
-                        <td><input type="reset" value="Borrar"></td>
-                    </tr>		    
-                </table>
-		</form>
+            <section>
+        		<form action="correo.php" method="post">
+                    <table border='2'>
+                        <tr>
+                            <td align="left">Nombre :</td>
+                            <td><input type="text" name="nombre" value="" required/></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Email :</td>
+                            <td><input type="email" name="email" value="" required/></td>
+                        </tr>
+                        <tr>
+                            <td align="left">Mensaje :</td>
+                            <td><input type="text" name="mensaje" value="" required/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Enviar"></td>
+                            <td><input type="reset" value="Borrar"></td>
+                        </tr>		    
+                    </table>
+        		</form>
             </section>
         </article>
-
     <footer>
         2021 EcoEdu    
     </footer>
 </body>
 </html>
-
